@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Nilai Mahasiswa</title>
+    <link rel="stylesheet" href="soal.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="judul">Laporan Nilai Mahasiswa</h1>
+        <div id="card">
+            <div id="header-title">
+                <h2>Input Nilai Mahasiswa</h2>
+            </div>
+            
+            <div class="input-form">
+                <label for="nama">Nama</label>
+                <input type="text" id="nama-input" placeholder="Masukkan nama">
+            </div>
+
+            <div class="input-form">
+                <label for="nilai">Nilai</label>
+                <input type="number" id="nilai-input" placeholder="Masukkan Nilai">
+            </div>
+
+            <button id="tombol" onclick="prosesData()">Submit</button>
+        </div>
+
+        <div id="hasil">
+            <h3>Hasil</h3>
+            <p>Nama: <span id="nama-span">...</span></p>
+            <p>Nilai: <span id="nilai-span">...</span></p>
+            <p id="status-kelulusan">Status: Sedang diproses...</p>
+        </div>
+    </div>
+
+    <script src="scriptsoal.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card" role="region" aria-label="Weather Dashboard">
+    <h1>Weather Dashboard</h1>
+    <p class="subtitle">Masukkan nama kota untuk mengecek cuaca</p>
+
+    <div class="form-row">
+      <input id="cityInput" type="text" placeholder="Isi nama kota" aria-label="Nama kota" />
+      <button id="showBtn">Tampilkan Cuaca</button>
+    </div>
+
+    <div id="output" class="result" aria-live="polite">
+      <span class="muted">Hasil akan muncul di console klik (F12)</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
