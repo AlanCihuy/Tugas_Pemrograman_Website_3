@@ -37,7 +37,7 @@ body {
     color: #333; /* Mengatur warna judul */
 }
 
-/* Potongan 4 - Lanjutan */
+/* Potongan 4 */
 #card {
     border: 1px solid var(--border-color);
     padding: 20px;
@@ -94,7 +94,7 @@ button:hover {
 #hasil {
     margin: 0;
     border: 1px solid #eee; /* Menambahkan border tipis */
-    border-top: none; /* Menghilangkan border atas jika digabung dengan #card */
+    border-top: none; /* Menghilangkan border atas jika digabun #card */
     padding: 15px;
     border-radius: 5px;
     text-align: left;

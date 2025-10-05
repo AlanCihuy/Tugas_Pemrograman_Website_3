@@ -12,8 +12,8 @@ function cekKelulusan() {
     nilai = parseInt(nilai);
 
     if (nilai >= 70) {
-        console.log("Nilai Anda:", nilai, "-> Status: Lulus ✔️");
+        console.log("Nilai Anda:", nilai, "-> Status: Lulus ✅");
     } else {
-        console.log("Nilai Anda:", nilai, "-> Status: Tidak Lulus ❌");
+        console.log("Nilai Anda:", nilai, "-> Status: Tidak Lulus ❎");
     }
 }
